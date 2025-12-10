@@ -3,7 +3,9 @@ using MedicalApp.Application.Interfaces;
 
 namespace MedicalApp.Application.Features.Appointments.Queries.GetAppointmentById;
 
-public class GetAppointmentByIdQueryHandler(IAppointmentRepository repository)
+public class GetAppointmentByIdQueryHandler(
+    IAppointmentRepository repository,
+    IAppointmentSecurityService securityService)
     : IRequestHandler<GetAppointmentByIdQuery, AppointmentDto>
 {
     public async Task<AppointmentDto> Handle(GetAppointmentByIdQuery request, CancellationToken cancellationToken)
@@ -11,6 +13,13 @@ public class GetAppointmentByIdQueryHandler(IAppointmentRepository repository)
         var appointment = await repository.GetByIdAsync(request.Id, cancellationToken);
         if (appointment is null)
             throw new ArgumentException($"Appointment with id {request.Id} not found");
+
+        var canView = await securityService.CanViewAsync(request.Id, cancellationToken);
+        if (!canView)
+        {
+            throw new InvalidOperationException("You do not have permission to view this appointment.");
+        }
+
         return new AppointmentDto(
             appointment.Id,
             appointment.DoctorId,

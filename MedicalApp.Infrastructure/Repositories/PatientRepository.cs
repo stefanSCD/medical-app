@@ -33,8 +33,8 @@ public class PatientRepository(AppDbContext context) : IPatientRepository
         var rowsDeleted = await context.Patients
             .Where(p => p.Id == id)
             .ExecuteDeleteAsync(cancellationToken);
-        
-        if(rowsDeleted == 0)
+
+        if (rowsDeleted == 0)
             throw new ArgumentException($"Patient with id {id} not found");
     }
 
@@ -48,8 +48,8 @@ public class PatientRepository(AppDbContext context) : IPatientRepository
                     .SetProperty(p => p.PersonalNumericCode, patient.PersonalNumericCode),
                 cancellationToken
             );
-        
-        if(rowsAffected == 0)
+
+        if (rowsAffected == 0)
             throw new ArgumentException($"Patient with id {patient.Id} not found");
     }
 
@@ -58,5 +58,11 @@ public class PatientRepository(AppDbContext context) : IPatientRepository
         return await context.Patients
             .AsNoTracking()
             .FirstOrDefaultAsync(p => p.PersonalNumericCode == cnp, cancellationToken);
+    }
+
+    public async Task<Patient?> GetByUserIdAsync(string userId, CancellationToken cancellationToken)
+    {
+        return await context.Patients
+            .FirstOrDefaultAsync(p => p.UserId == userId, cancellationToken);
     }
 }

@@ -16,12 +16,18 @@ public static class AppointmentEndpoints
         var group = app.MapGroup("/api/appointments")
             .WithTags("Appointments");
 
-        group.MapPost("/", CreateAppointment);
-        group.MapGet("/doctor/{id:guid}", GetByDoctorId);
-        group.MapGet("/patient/{id:guid}", GetByPatientId);
-        group.MapDelete("/{id:guid}", DeleteAppointment);
-        group.MapPut("/{id:guid}", UpdateAppointment);
-        group.MapGet("/{id:guid}", GetById);
+        group.MapPost("/", CreateAppointment)
+            .RequireAuthorization();
+        group.MapGet("/doctor/{id:guid}", GetByDoctorId)
+            .RequireAuthorization();
+        group.MapGet("/patient/{id:guid}", GetByPatientId)
+            .RequireAuthorization();
+        group.MapDelete("/{id:guid}", DeleteAppointment)
+            .RequireAuthorization();
+        group.MapPut("/{id:guid}", UpdateAppointment)
+            .RequireAuthorization();
+        group.MapGet("/{id:guid}", GetById)
+            .RequireAuthorization();
     }
 
     private static async Task<IResult> CreateAppointment([FromBody] CreateAppointmentCommand command, ISender sender)

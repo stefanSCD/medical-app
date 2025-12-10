@@ -60,4 +60,10 @@ public class DoctorRepository(AppDbContext context) : IDoctorRepository
             .Where(d => d.Specialization == specialization)
             .ToListAsync(cancellationToken);
     }
+
+    public async Task<Doctor?> GetByUserIdAsync(string userId, CancellationToken cancellationToken)
+    {
+        return await context.Doctors
+            .FirstOrDefaultAsync(d => d.UserId == userId, cancellationToken);
+    }
 }
