@@ -10,4 +10,5 @@ public interface IDoctorRepository
     Task UpdateAsync(Doctor doctor, CancellationToken cancellationToken = default);
     Task<Doctor?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
     Task<List<Doctor>> GetBySpecializationAsync(string specialization, CancellationToken cancellationToken = default);
+    Task<Doctor?> GetByUserIdAsync(string userId, CancellationToken cancellationToken);
 }

@@ -7,5 +7,6 @@ public record UpdateAppointmentCommand(
     Guid DoctorId,
     Guid PatientId,
     DateTime StartDate,
-    DateTime EndDate
+    DateTime EndDate,
+    string Status
 ) : IRequest;

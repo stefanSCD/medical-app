@@ -14,3 +14,8 @@ C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\obj\Debug\net10.0\Med
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\obj\Debug\net10.0\refint\MedicalApp.Application.dll
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\obj\Debug\net10.0\MedicalApp.Application.pdb
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\obj\Debug\net10.0\ref\MedicalApp.Application.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\bin\Debug\net10.0\Microsoft.Extensions.Features.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\bin\Debug\net10.0\Microsoft.Net.Http.Headers.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Application\bin\Debug\net10.0\Microsoft.AspNetCore.Connections.Abstractions.dll

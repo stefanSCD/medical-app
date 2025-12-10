@@ -64,3 +64,8 @@ C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\obj\Debug\net10.0\
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\obj\Debug\net10.0\MedicalApp.Infrastructure.pdb
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\obj\Debug\net10.0\MedicalApp.Infrastructure.genruntimeconfig.cache
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\obj\Debug\net10.0\ref\MedicalApp.Infrastructure.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\bin\Debug\net10.0\Microsoft.Extensions.Features.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\bin\Debug\net10.0\Microsoft.Net.Http.Headers.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Infrastructure\bin\Debug\net10.0\Microsoft.AspNetCore.Connections.Abstractions.dll

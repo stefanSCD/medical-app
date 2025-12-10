@@ -224,3 +224,5 @@ C:\Users\x\RiderProjects\MedicalApp\MedicalApp\bin\Debug\net10.0\Swashbuckle.Asp
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp\obj\Debug\net10.0\MedicalApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

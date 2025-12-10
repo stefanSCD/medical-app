@@ -10,3 +10,4 @@ C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Domain\obj\Debug\net10.0\MedicalA
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Domain\obj\Debug\net10.0\refint\MedicalApp.Domain.dll
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Domain\obj\Debug\net10.0\MedicalApp.Domain.pdb
 C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Domain\obj\Debug\net10.0\ref\MedicalApp.Domain.dll
+C:\Users\x\RiderProjects\MedicalApp\MedicalApp.Domain\obj\Debug\net10.0\MedicalApp.Domain.csproj.AssemblyReference.cache

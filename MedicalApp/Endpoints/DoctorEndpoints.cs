@@ -16,12 +16,18 @@ public static class DoctorEndpoints
         var group = app.MapGroup("/api/doctors")
             .WithTags("Doctors");
 
-        group.MapPost("/", CreateDoctor);
-        group.MapGet("/", GetAllDoctors);
-        group.MapDelete("/{id:guid}", DeleteDoctor); 
-        group.MapPut("/{id:guid}", UpdateDoctor);
-        group.MapGet("/{id:guid}", GetById);
-        group.MapGet("/specialization/{specialization}", GetBySpecialization);
+        group.MapPost("/", CreateDoctor)
+            .RequireAuthorization(x => x.RequireRole("Admin"));
+        group.MapGet("/", GetAllDoctors)
+            .RequireAuthorization();
+        group.MapDelete("/{id:guid}", DeleteDoctor)
+            .RequireAuthorization(x => x.RequireRole("Admin"));
+        group.MapPut("/{id:guid}", UpdateDoctor)
+            .RequireAuthorization(x => x.RequireRole("Admin"));
+        group.MapGet("/{id:guid}", GetById)
+            .RequireAuthorization();
+        group.MapGet("/specialization/{specialization}", GetBySpecialization)
+            .RequireAuthorization();
     }
 
     private static async Task<IResult> CreateDoctor([FromBody] CreateDoctorCommand command, ISender sender)
