@@ -14,12 +14,18 @@ public static class PatientEndpoints
     public static void MapPatientEndpoints(this IEndpointRouteBuilder app)
     {
         var group = app.MapGroup("/api/patients").WithTags("Patients");
-        group.MapPost("/", CreatePatient);
-        group.MapPut("/{id:guid}", UpdatePatient);
-        group.MapDelete("/{id:guid}", DeletePatient);
-        group.MapGet("/", GetAllPatients);
-        group.MapGet("/{id:guid}", GetPatientById);
-        group.MapGet("/cnp/{cnp}", GetPatientByCnp);
+        group.MapPost("/", CreatePatient)
+            .RequireAuthorization(x => x.RequireRole("Admin"));
+        group.MapPut("/{id:guid}", UpdatePatient)
+            .RequireAuthorization(x => x.RequireRole());
+        group.MapDelete("/{id:guid}", DeletePatient)
+            .RequireAuthorization(x => x.RequireRole());
+        group.MapGet("/", GetAllPatients)
+            .RequireAuthorization(x => x.RequireRole("Admin"));
+        group.MapGet("/{id:guid}", GetPatientById)
+            .RequireAuthorization();
+        group.MapGet("/cnp/{cnp}", GetPatientByCnp)
+            .RequireAuthorization(x => x.RequireRole("Admin", "Doctor"));
     }
 
     private static async Task<IResult> CreatePatient([FromBody] CreatePatientCommand command, ISender sender)

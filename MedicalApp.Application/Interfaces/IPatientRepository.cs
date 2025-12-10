@@ -10,4 +10,5 @@ public interface IPatientRepository
     Task DeleteAsync(Guid id, CancellationToken cancellationToken = default);
     Task UpdateAsync(Patient patient, CancellationToken cancellationToken = default);
     Task<Patient?> GetByCnpAsync(string cnp, CancellationToken cancellationToken = default);
+    Task<Patient?> GetByUserIdAsync(string userId, CancellationToken cancellationToken);
 }
