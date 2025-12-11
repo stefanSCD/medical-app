@@ -9,17 +9,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44caa177-2465-41ff-8c40-a7b2f4ef86ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandValidatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/DeletePatient/DeletePatientCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetAllPatients/GetAllPatientsQueryHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MedicalApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedicalApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/ref/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/ref/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/refint/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/refint/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/ref/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/ref/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/refint/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/refint/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/ref/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/ref/MedicalApp.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/refint/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/refint/MedicalApp.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandValidatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandValidatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/DeleteDoctor/DeleteDoctorCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/DeleteDoctor/DeleteDoctorCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/UpdateDoctor/UpdateDoctorCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/UpdateDoctor/UpdateDoctorCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetAllDoctors/GetAllDoctorsQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetAllDoctors/GetAllDoctorsQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetById/GetDoctorByIdQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetById/GetDoctorByIdQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetBySpecialization/GetDoctorBySpecializationQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetBySpecialization/GetDoctorBySpecializationQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandValidatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandValidatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/DeletePatient/DeletePatientCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/DeletePatient/DeletePatientCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetAllPatients/GetAllPatientsQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetAllPatients/GetAllPatientsQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/ref/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/ref/MedicalApp.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/refint/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/refint/MedicalApp.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/MedicalApp.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/ref/MedicalApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/ref/MedicalApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/refint/MedicalApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/refint/MedicalApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +139,7 @@
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Mocks/MockHelpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.GlobalUsings.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -73,29 +152,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "1c19fa2c-f571-4588-9805-c455b0fd206a.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/patient-tests",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;1c19fa2c-f571-4588-9805-c455b0fd206a.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MedicalApp: http">
     <configuration name="MedicalApp: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MedicalApp/MedicalApp.csproj" />
