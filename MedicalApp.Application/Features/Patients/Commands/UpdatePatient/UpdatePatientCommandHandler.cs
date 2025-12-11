@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using MedicalApp.Application.Interfaces;
-using MedicalApp.Domain.Entities;
 
 namespace MedicalApp.Application.Features.Patients.Commands.UpdatePatient;
 
