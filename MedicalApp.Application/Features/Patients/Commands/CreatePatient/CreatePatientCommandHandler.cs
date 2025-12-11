@@ -23,6 +23,7 @@ public class CreatePatientCommandHandler(
         
         Patient patient = new Patient
         {
+            Id = Guid.NewGuid(),
             FirstName = request.FirstName,
             LastName = request.LastName,
             PersonalNumericCode = request.PersonalNumericCode,
