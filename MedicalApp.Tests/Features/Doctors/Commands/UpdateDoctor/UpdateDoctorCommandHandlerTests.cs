@@ -4,7 +4,7 @@ using MedicalApp.Application.Interfaces;
 using MedicalApp.Domain.Entities;
 using Moq;
 using Xunit;
-
+using System.Threading.Tasks;
 namespace MedicalApp.Tests.Features.Doctors.Commands.UpdateDoctor;
 
 public class UpdateDoctorCommandHandlerTests

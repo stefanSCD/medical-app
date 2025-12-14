@@ -6,6 +6,7 @@ using MedicalApp.Tests.Mocks;
 using Microsoft.AspNetCore.Identity;
 using Moq;
 using Xunit;
+using System.Threading.Tasks;
 
 namespace MedicalApp.Tests.Features.Patients.Commands.DeletePatient;
 

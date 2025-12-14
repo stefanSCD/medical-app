@@ -9,13 +9,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44caa177-2465-41ff-8c40-a7b2f4ef86ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/CreateAppointment/CreateAppointmentCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/CreateAppointment/CreateAppointmentCommandValidatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/DeleteAppointment/DeleteAppointmentCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/UpdateAppointment/UpdateAppointmentCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Queries/GetAppointmentByDoctorId/GetAppointmentsByDoctorIdQueryHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Queries/GetAppointmentById/GetAppointmentByIdQueryHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Queries/GetAppointmentByPatientId/GetAppointmentsByPatientIdQueryHandlerTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MedicalApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedicalApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
@@ -29,7 +22,6 @@
       <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/MedicalApp.Application.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/ref/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/ref/MedicalApp.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/refint/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/Debug/net10.0/refint/MedicalApp.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/bin/Debug/net10.0/MedicalApp.Domain.pdb" afterDir="false" />
@@ -40,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/MedicalApp.Domain.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/ref/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/ref/MedicalApp.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/refint/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/Debug/net10.0/refint/MedicalApp.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
@@ -56,8 +47,21 @@
       <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/MedicalApp.Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/ref/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/ref/MedicalApp.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/refint/MedicalApp.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/Debug/net10.0/refint/MedicalApp.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandValidatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandValidatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/DeleteDoctor/DeleteDoctorCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/DeleteDoctor/DeleteDoctorCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/UpdateDoctor/UpdateDoctorCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/UpdateDoctor/UpdateDoctorCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetAllDoctors/GetAllDoctorsQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetAllDoctors/GetAllDoctorsQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetById/GetDoctorByIdQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetById/GetDoctorByIdQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetBySpecialization/GetDoctorBySpecializationQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Queries/GetBySpecialization/GetDoctorBySpecializationQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandValidatorTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/CreatePatient/CreatePatientCommandValidatorTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/DeletePatient/DeletePatientCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/DeletePatient/DeletePatientCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Commands/UpdatePatient/UpdatePatientCommandHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetAllPatients/GetAllPatientsQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetAllPatients/GetAllPatientsQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/bin/Debug/net10.0/MedicalApp.Domain.dll" afterDir="false" />
@@ -67,13 +71,11 @@
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/ref/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/ref/MedicalApp.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/refint/MedicalApp.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/refint/MedicalApp.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp.Tests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/bin/Debug/net10.0/MedicalApp.Application.pdb" afterDir="false" />
@@ -95,7 +97,6 @@
       <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/refint/MedicalApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/refint/MedicalApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedicalApp/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MedicalApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MedicalApp/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,13 +124,6 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/337268366a89be4dda7d47b37063fd21841972237539397997c82c4f924b/Mock`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/CreateAppointment/CreateAppointmentCommandHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/CreateAppointment/CreateAppointmentCommandValidatorTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/DeleteAppointment/DeleteAppointmentCommandHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Commands/UpdateAppointment/UpdateAppointmentCommandHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Queries/GetAppointmentByDoctorId/GetAppointmentsByDoctorIdQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Queries/GetAppointmentById/GetAppointmentByIdQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Appointments/Queries/GetAppointmentByPatientId/GetAppointmentsByPatientIdQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/CreateDoctor/CreateDoctorCommandValidatorTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Doctors/Commands/DeleteDoctor/DeleteDoctorCommandHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -145,6 +139,7 @@
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetByCnp/GetPatientByCnpQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Features/Patients/Queries/GetById/GetPatientByIdQueryHandlerTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/Mocks/MockHelpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MedicalApp.Tests/obj/Debug/net10.0/MedicalApp.Tests.GlobalUsings.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -165,7 +160,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/appointment-tests&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -225,8 +220,6 @@
       <workItem from="1765437296340" duration="1000" />
       <workItem from="1765464873482" duration="199000" />
       <workItem from="1765465091372" duration="1447000" />
-      <workItem from="1765468387587" duration="201000" />
-      <workItem from="1765699245913" duration="2463000" />
     </task>
     <servers />
   </component>
